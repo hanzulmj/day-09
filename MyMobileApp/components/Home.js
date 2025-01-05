@@ -24,6 +24,10 @@ You can collapse parts of the document and focus on the text you want.
 If you need to stop reading before you reach the end, Word remembers where you left off - even on another device.
 
 </Text>
+<Button icon="camera" mode="contained" onPress={() => console.log('Pressed')}>
+    Press me
+</Button>
+
 </>
     );
 }
