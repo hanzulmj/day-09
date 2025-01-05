@@ -1,13 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
 import { PaperProvider,Text } from 'react-native-paper';
-
+import Home from './components/Home';
 export default function App() {
   return (
     <PaperProvider>
       <View style={styles.container}>
-      <Text variant="headlineLarge">Headline Large</Text>
-      <Text variant="bodyMedium">Body Medium</Text>
+      <Home />
       <StatusBar style="auto" />
     </View>
     </PaperProvider>
@@ -22,4 +21,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  body:{
+    padding:7,
+    alignItems:'justify'
+  }
 });
