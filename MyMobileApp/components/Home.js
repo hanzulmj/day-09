@@ -2,7 +2,7 @@ import { StyleSheet, View } from 'react-native';
 import { Text,Divider } from 'react-native-paper';
 export default function Home(){
     return(
-        <view>
+        <>
         <Text variant="headlineLarge">Headline Large</Text>
         <Divider />
       <Text variant="bodyMedium" styles={styles.body}> Video provides a powerful way to help you prove your point. 
@@ -24,7 +24,7 @@ You can collapse parts of the document and focus on the text you want.
 If you need to stop reading before you reach the end, Word remembers where you left off - even on another device.
 
 </Text>
-</view>
+</>
     );
 }
 
