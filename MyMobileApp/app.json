@@ -23,6 +23,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "scripts": {
+    "install-web-dependencies": "npx expo install react-dom react-native-web @expo/metro-runtime"
+  }
   }
 }

@@ -1,12 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import { PaperProvider,Text } from 'react-native-paper';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+    <PaperProvider>
+      <View style={styles.container}>
+      <Text variant="headlineLarge">Headline Large</Text>
+      <Text variant="bodyMedium">Body Medium</Text>
       <StatusBar style="auto" />
     </View>
+    </PaperProvider>
+    
   );
 }
 
