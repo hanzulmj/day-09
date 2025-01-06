@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View,ScrollView} from 'react-native';
 import { PaperProvider,Text } from 'react-native-paper';
 import Home from './components/Home';
+import ContactUs from './components/ContactUs';
 import { SafeAreaView } from 'react-native-web';
 export default function App() {
   return (
@@ -9,7 +10,8 @@ export default function App() {
       <SafeAreaView>
       <ScrollView>
       <View style={styles.container}>
-      <Home />
+     
+      <ContactUs />
       <StatusBar style="auto" />
     </View>
     </ScrollView>
